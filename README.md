@@ -71,7 +71,14 @@ The trained LightGBM model and preprocessor are deployed using Streamlit to crea
 3. The app will predict the `Severity` and display the results.
 4. Download the predictions as a CSV file.
 
+## Testing streamlit app
 
+1. Download test.csv file in REPO.
+2. visit the [app](https://syedvaseembasha-techstax-app-u3u0hr.streamlit.app/) .
+3. upload  the csv file.
+4. The app will predict the `Severity` and display the results.
+4. Download the predictions as a CSV file.
+   
 ## Further Development
 
 * **More comprehensive hyperparameter tuning**  to optimize model performance.
