@@ -1,8 +1,17 @@
-# prompt: now analize above entire code to create readme 
+
 
 # Accident Severity Prediction
 
 This project focuses on predicting the severity of traffic accidents using machine learning.  The model is trained on a dataset of accident records, and then deployed using Streamlit for user-friendly prediction.
+
+## Data Size Comparison
+
+| File Type | Size (GB)                                            |
+|---|--------------------------------------------------------------|
+| Original CSV  |  2.8 GB  |
+| Parquet (after comparison) | 0.7 GB |
+
+**Note:** Due to privacy issues data_files not shown
 
 ## Data and Preprocessing
 
@@ -52,7 +61,7 @@ The trained LightGBM model and preprocessor are deployed using Streamlit to crea
 
 2. Run the Streamlit app:
    ```bash
-   streamlit run your_app_file.py  # Replace your_app_file.py with the name of your Python file.
+   streamlit run app.py  
    ```
 
 ## Usage
